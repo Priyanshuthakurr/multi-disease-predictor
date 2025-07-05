@@ -1,0 +1,23 @@
+# Smart Health Companion - Environment Variables
+# Copy this file to .env and fill in your actual API keys
+
+# Google Maps API (Required for hospital location features)
+# Get your API key from: https://console.cloud.google.com/
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+
+# Twilio API (Required for SMS emergency alerts)
+# Get your credentials from: https://www.twilio.com/
+TWILIO_ACCOUNT_SID=your_twilio_account_sid_here
+TWILIO_AUTH_TOKEN=your_twilio_auth_token_here
+TWILIO_PHONE_NUMBER=your_twilio_phone_number_here
+
+# Email Configuration (Optional - for email emergency alerts)
+# For Gmail, you'll need an App Password: https://myaccount.google.com/apppasswords
+EMAIL_SMTP_SERVER=smtp.gmail.com
+EMAIL_SMTP_PORT=587
+EMAIL_USERNAME=your_email@gmail.com
+EMAIL_PASSWORD=your_app_password_here
+
+# Application Settings (Optional)
+DEBUG_MODE=False
+LOG_LEVEL=INFO 
